@@ -16,7 +16,5 @@ jobs:
       with:
         username: javeed1307@gmail.com
         password: javeed@123
-
-    - name: Logout Docker image
+    - name: Logout from Docker Registry
       uses: docker/logout-action@v1
-      id: logout
